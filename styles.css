@@ -1,3 +1,38 @@
 body {
-  background: #f99;
+  background: #808000;
+  padding: 0em;
+  border: 0em;
+  margin: 0em;
+
+}
+nav {
+  background: #008000;
+  padding: 0em;
+  border: 0em;
+  margin: 0em;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  float: right;
+}
+
+main {
+  padding: 0em;
+  float: left;
+  border: 0em;
+  margin: 0em;
+  background-color: grey;
+  width: 85%;
+  box-sizing: content-box;
+}
+header {
+  padding: 0em;
+  border: 0em;
+  margin: 0em;
+  background-color: lightblue;
+}
+
+a:hover {
+  padding: 5em 0.5em;
+  transition: 2s;
 }
